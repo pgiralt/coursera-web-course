@@ -1,7 +1,7 @@
 #header-nav {
   background-color: #CCCCCC;
   border-radius: 0;
-  border: 1px solid black;
+  border-bottom: 1px solid black;
 }
 
 .navbar-brand {
