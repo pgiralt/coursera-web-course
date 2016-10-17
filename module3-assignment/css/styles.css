@@ -1,0 +1,47 @@
+#header-nav {
+  background-color: #CCCCCC;
+  border-radius: 0;
+  border: 1px solid black;
+}
+
+.navbar-brand {
+  padding-top: 0px;
+  float: none;
+}
+
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -50px;
+}
+
+#menu-items {
+	background-color: #DDDDFF;
+	padding: 20px;
+	margin-top: 20px;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header button.navbar-toggle .icon-bar {
+  border: 1px solid #FFF;
+}
+
+.navbar-header button.collapsed, .navbar-header button.collapsed .icon-bar {
+  border: 1px solid #000;
+}
+
+#collapsable-nav li:nth-child(2), #collapsable-nav li:nth-child(3) {
+  border-top: 1px solid black;	
+}
+
+#nav-list {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	background-color: #fff;
+}
+
+
+@media (max-width: 767px) {
+
+#collapsable-nav {
+  border-top: 1px solid black;
+}
+
